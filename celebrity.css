@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+  background-color: rgb(230,230,230);
+  color: rgb(50, 50, 50);
+  font: normal 300 22px "Open Sans";
+  margin: 0;
+  max-width: 1300px;
+  min-width: 360px;
+  width: 100%;
+}
+
+header {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/RobertdeNiro26.JPG/800px-RobertdeNiro26.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+  margin: 0;
+  padding-top: 1px;
+  width: 100%;
+}
+
+footer{
+  background-image: -webkit-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: -moz-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: -o-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  color: white;
+  margin-top: 100px;
+  padding: 30px 20px 0px 20px;
+}
+
+header section {
+  background-image: -webkit-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: -moz-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: -o-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 1px;
+  padding-top: 30px;
+  padding-bottom:20px;
+}
+
+img {
+  padding-bottom: 30px;
+  clear: both;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+iframe {
+  margin-top: 30px;
+  height: 380px;
+}
+
+h1 {
+  color: white;
+  font: normal 700 24px "Open Sans";
+  letter-spacing: .8px;
+  padding: 80px 0 10px 20px;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+h2 {
+  color: white;
+  font: normal 300 45px "Open Sans";
+  margin: 0;
+  padding-top: 20px;
+}
+
+h3 {
+  color: teal;
+  font: normal 400 32px "Open Sans";
+}
+
+h4 {
+  background-image: -webkit-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: -moz-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: -o-linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  background-image: linear-gradient(rgb(0,100,100), rgb(0,128,128));
+  border-radius: 100px;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 53px;
+  text-align: center;
+  width: 80px;
+}
+
+section {
+  padding: 0 20px;
+}
+
